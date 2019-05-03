@@ -1,0 +1,492 @@
+/*COLORES
+    C90000
+    981919
+    500E0E
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+body {
+	overflow-x:hidden;
+}
+
+h1{
+	font-size: 5em;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+h4{
+	color: #FFFFFF;
+}
+
+p{
+	color: #FFFFFF;
+	padding: 0;
+	margin:0;
+}
+
+address{
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+.rojo{
+	color: red;
+}
+
+.negro{
+	color: black;
+}
+
+.cursiva{
+	font-style: italic;
+}
+
+label{
+	color: #FFFFFF;
+}
+
+
+
+
+/*----------------------------------------------------------------- MENU DE NAVEGACION ----------------------------------------------------------*/
+
+.nav-custom{
+	background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-item {
+	margin-left: 200px;
+	margin-right: 100px;
+	color: #FFFFFF;
+}
+
+.nav-item .nav-link{
+
+	color: #FFFFFF;
+}
+
+
+/*----------------------------------------------------------------- FIN MENU DE NAVEGACION --------------------------------------------------------*/
+
+
+
+
+
+
+
+/*----------------------------------------------------------------- ESTILOS INDEX -----------------------------------------------------------------*/
+
+.sectionIndex{
+	background-image: url(../img/index.jpg);
+	background-size: cover;
+	height: 600px;
+}
+
+.sectionIndex .row{
+	padding-top: 150px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+
+.sectionIndex2{
+	background-color: #C90000;
+	height: auto;
+	padding-bottom: 100px;
+	box-shadow: 0px 71px 5px 0px rgba(0,0,0,1);
+}
+
+.sectionIndex2 button{
+	width: 400px;
+	height: 150px;
+  	background: #500E0E;
+  	color: #FFF;
+  	font-weight: bold;
+  	font-size: 3em;
+  	border-radius: 40px 40px;
+  	margin-left: 50%;
+
+}
+
+.sectionIndex2 .row{
+	padding-top: 150px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+/*-----------------------------------------------------------------FIN ESTILOS INDEX -----------------------------------------------------------------*/
+
+
+
+
+
+
+/*----------------------------------------------------------------- MENUS (PESCADO, POLLO, SOPAS) -----------------------------------------------------------------*/
+
+.sectionCarousel{
+	box-shadow:  0px 10px 8px 0px rgba(0,0,0,0.25);
+}
+
+.sectionCarousel .carousel {
+	width:  auto;
+	height: 800px;
+
+}
+
+.carousel-item img{
+	height: 800px;
+}
+.sectionMenu {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+
+}
+
+.sectionMenu img{
+	width: 300px;
+	height: 300px;
+}
+
+.divMenu{
+	z-index: 1; 
+	position: absolute; 
+	margin-top: 15%; 
+	margin-left: 15%; 
+	width: 50%;
+}
+
+/*----------------------------------------------------------------- FIN MENUS (PESCADO, POLLO, SOPAS) -----------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*----------------------------------------------------------------- COMBOS -----------------------------------------------------------------*/
+
+.sectionCombos{
+	background-image: url(../img/chinese-food-210101_1280.jpg);
+	background-size: cover;
+	background-position: 30% 70%;
+	height: 600px;
+	box-shadow:  0px 10px 8px 0px rgba(0,0,0,0.25);
+}
+
+.sectionCombos .row{
+	padding-top: 150px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.sectionCombos2 img{
+	height: 500px;
+	width: 600px;
+}
+
+/*----------------------------------------------------------------- FIN COMBOS -----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------- CONTACTO -----------------------------------------------------------------*/
+
+.sectionContac{
+	background-image: url(../img/salmon-1238248_1280.jpg);
+	background-size: cover;
+	background-position: 30% 70%;
+	height: 600px;
+	padding-top: 150px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+
+.sectionContac2{
+	background-color: #C90000;
+	height: auto;
+	padding-bottom: 100px;
+}
+
+.sectionContac2 p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+#map {
+	height: 500px;
+	width: 1000px;
+	background-color: grey;
+	margin: 0 auto;
+}
+
+.buttomForm{
+	width: 130px;
+	height: 40px;
+	background: #500E0E;
+  	color: #FFF;
+  	font-weight: bold;
+  	border-radius: 40px 40px;
+}
+
+
+/*----------------------------------------------------------------- FIN CONTACTO -----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*----------------------------------------------------------------- SOBRE NOSOTROS ---------------------------------------------------------------*/
+
+.sectionSobre{
+	background-image: url(../img/kitchen-731351_1280.jpg);
+	background-size: cover;
+	background-position: 80% 20%;
+	height: 600px;
+	box-shadow: 0px 7px 21px 0px rgba(0,0,0,0.50);
+}
+
+.sectionSobre .row{
+	padding-top: 150px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.sectionSobre2 {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	padding-top: 2%;
+}
+
+.sectionSobre2 p {
+	font-size: 20px;
+}
+
+.sectionSobre2 img{
+	width: 500px;
+	height: 300px;
+	box-shadow: 0px 7px 21px 0px rgba(0,0,0,0.75);
+}
+
+
+/*----------------------------------------------------------------- FIN SOBRE NOSOTROS -----------------------------------------------------------*/
+
+
+
+
+
+.sectionUbicacion{
+	background-color: #981919;
+	height: auto;
+	box-shadow: inset 0px 10px 8px 0px rgba(0,0,0,0.25);
+
+}
+
+.ubicacion{
+	padding-top: 40px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.horarios{
+	padding-left: 15%;
+}
+
+footer{
+	box-shadow: inset 0px 10px 8px 0px rgba(0,0,0,0.25);
+	background-color: #500E0E;
+	height: 130px;
+}
+footer .row{
+	padding-top: 30px;
+}
+footer img{
+	height: 50px;
+	width: 50px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 3px;
+}
+
+
+/*---------------------------------------------------------------- MEDIA QUERYS------------------------------------------------------------------*/
+
+@media only screen and (max-width: 360px){
+
+
+/*-- MENUS (PESCADO, POLLO, SOPAS)--*/
+.sectionCarousel .carousel {
+	width:  auto;
+	height: 400px;
+
+}
+
+.carousel-item img{
+	height: 400px;
+}
+
+.divMenu{
+	font-size: 5px;
+	width: 80%;
+	margin-top: 50%; 
+	margin-left: 15%; 
+}
+
+/*-- COMBOS--*/
+
+.sectionCombos{
+	height: 400px;
+}
+
+.sectionCombos h1{
+	font-size: 35px;
+}
+.sectionCombos h4{
+	font-size: 17px;
+}
+
+.sectionCombos2 img{
+	height: 200px;
+	width: 300px;
+}
+
+/*-- CONTACTO --*/
+
+.sectionContac{
+	height: 400px;
+
+}
+
+.sectionContac h1{
+	font-size: 35px;
+
+}
+
+.sectionContac h4{
+	font-size: 17px;
+
+}
+
+.sectionContac2 h1{
+	font-size: 31px;
+	margin-top: 10px;
+}
+
+.sectionContac2 p{
+	font-size: 14px;
+	padding-right: 3%;
+	padding-left: 3%;
+	padding-bottom: 3%;
+	margin-top: 50px
+}
+
+
+
+#map {
+	height: 200px;
+	width: 90%;
+	margin-bottom: -35px;
+}
+
+/*-- SOBRE NOSOTROS --*/
+
+.sectionSobre{
+	height: 400px;
+}
+
+.sectionSobre h1{
+	font-size: 35px;
+}
+
+.sectionSobre h4{
+	font-size: 17px;
+}
+
+.sectionSobre2 { 
+	text-align: center;
+}
+
+.sectionSobre2 p {
+	font-size: 15px;
+}
+
+.sectionSobre2 h1{
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+.sectionSobre2 img{
+	width: 300px;
+	height: 200px;
+	margin-left: 4%;
+	
+}
+
+.lineaTiempo h1{
+	font-size: 40px;
+}
+
+.nosotros:nth-child(1) {
+	order: 2;
+	
+}
+.nosotros:nth-child(2) {
+	order: 1;
+	
+}
+
+/*-- UBICACION Y HORARIOS --*/
+	.sectionUbicacion{
+		font-size: 12px;
+
+	}
+
+	.sectionUbicacion h4{
+		font-size: 15px;
+
+	}
+
+	.ubicacion{
+		padding-top: 20px;
+
+	}
+
+	.horarios{
+		padding-left: 0%;
+	}
+
+	address{
+		font-size: 11px;
+	}
+
+	footer img{
+	height: 40px;
+	width: 40px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+
+}
