@@ -131,8 +131,8 @@ label{
 .botonMenu{
 	z-index: 1;
 	position: absolute;
-	margin-top: -15%;
-	margin-left: 25%; 
+	margin-top: -13%;
+	margin-left: 20%; 
 
 }
 
@@ -160,12 +160,12 @@ label{
 
 .sectionCarousel .carousel {
 	width:  auto;
-	height: 800px;
+	height: 600px;
 
 }
 
 .carousel-item img{
-	height: 800px;
+	height: 600px;
 }
 .sectionMenu {
 	padding-top: 100px;
@@ -358,7 +358,7 @@ footer img{
 
 /*---------------------------------------------------------------- MEDIA QUERYS------------------------------------------------------------------*/
 
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 414px){
 
 
 /*-- MENUS (PESCADO, POLLO, SOPAS)--*/
