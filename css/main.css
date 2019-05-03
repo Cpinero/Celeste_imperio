@@ -136,9 +136,6 @@ label{
 
 }
 
-.botonMenu div{
-	
-}
 
 .botonMenu img{
 	height: 200px; 
@@ -359,6 +356,62 @@ footer img{
 /*---------------------------------------------------------------- MEDIA QUERYS------------------------------------------------------------------*/
 
 @media only screen and (max-width: 414px){
+
+/*-- INDEX --*/
+
+.sectionIndex{
+	height: 400px;
+}
+
+.sectionIndex h1{
+	font-size: 35px;
+}
+
+.sectionIndex h4{
+	font-size: 17px;
+}
+
+.botonMenu{
+	margin-top: -25%;
+	margin-left: -9%; 
+
+}
+
+.botonMenu img{
+	height: 80px; 
+	width: 110px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.sectionIndex2{
+	padding-bottom: 10%;
+}
+
+.sectionIndex2 .row{
+	padding-top: 50px;
+}
+
+.sectionIndex2 h1{
+	text-align: center;
+	font-size: 35px;
+
+}
+
+.sectionIndex2 p{
+	text-align: center;
+	
+}
+
+.sectionIndex2 button{
+	width: 120px;
+	height: 40px;
+  	font-size: 16px;
+  	margin-left: 31%;
+  	margin-top: 5%;
+  	border-radius: 20px 20px;
+
+}
 
 
 /*-- MENUS (PESCADO, POLLO, SOPAS)--*/
