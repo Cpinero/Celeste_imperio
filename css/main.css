@@ -285,12 +285,13 @@ label{
 	background-position: 80% 20%;
 	height: 600px;
 	box-shadow: 0px 7px 21px 0px rgba(0,0,0,0.50);
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .sectionSobre .row{
 	padding-top: 150px;
-	padding-left: 5%;
-	padding-right: 5%;
+
 }
 .sectionSobre2 {
 	padding-left: 5%;
@@ -298,9 +299,13 @@ label{
 	padding-bottom: 5%;
 	padding-top: 2%;
 }
-
+.sectionSobre2 h1 {
+	
+	padding-left: 5%;
+}
 .sectionSobre2 p {
 	font-size: 20px;
+	padding-left: 5%;
 }
 
 .sectionSobre2 img{
@@ -308,6 +313,8 @@ label{
 	height: 300px;
 	box-shadow: 0px 7px 21px 0px rgba(0,0,0,0.75);
 }
+
+
 
 
 /*----------------------------------------------------------------- FIN SOBRE NOSOTROS -----------------------------------------------------------*/
@@ -436,6 +443,7 @@ footer img{
 
 .sectionSobre h1{
 	font-size: 35px;
+	padding-left: 0%;
 }
 
 .sectionSobre h4{
@@ -448,6 +456,8 @@ footer img{
 
 .sectionSobre2 p {
 	font-size: 15px;
+	padding-left: 0%;
+
 }
 
 .sectionSobre2 h1{
