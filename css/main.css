@@ -39,7 +39,7 @@ address{
 }
 
 .rojo{
-	color: red;
+	color: #500E0E;
 }
 
 .negro{
@@ -208,6 +208,10 @@ label{
 	padding-right: 5%;
 }
 
+.sectionCombos2{
+	padding-bottom: 50px;
+}
+
 .sectionCombos2 img{
 	height: 500px;
 	width: 600px;
@@ -355,6 +359,165 @@ footer img{
 
 /*---------------------------------------------------------------- MEDIA QUERYS------------------------------------------------------------------*/
 
+/*-- TABLET --*/
+
+@media only screen and (max-width: 768px){
+
+/*-- INDEX --*/
+
+.sectionIndex{
+	height: 500px;
+}
+
+.sectionIndex h1{
+	font-size: 60px;
+}
+
+.sectionIndex h4{
+	font-size: 20px;
+}
+
+.botonMenu{
+	margin-top: -30%;
+	margin-left: 0%; 
+
+}
+
+.botonMenu img{
+	height: 150px; 
+	width: 200px;
+}
+
+.sectionIndex2{
+	text-align: center;
+}
+
+.sectionIndex2 h1{
+	font-size: 60px;
+}
+
+.sectionIndex2 p{
+	font-size: 20px;
+}
+
+.sectionIndex2 button{
+	width: 220px;
+	height: 90px;
+  	font-size: 25px;
+  	border-radius: 30px 30px;
+  	margin-left: 0%;
+  	margin-top: 5%;
+}
+
+/*-- MENUS (PESCADO, POLLO, SOPAS) --*/
+
+.sectionCarousel .carousel {
+	height: 500px;
+
+}
+
+.carousel-item img{
+	height: 500px;
+}
+
+.divMenu{
+	width: 90%;
+	font-size: 11px;
+}
+
+.divMenu h1{
+	padding-top: 100px;
+}
+
+
+
+.sectionMenu img{
+	width: 170px;
+	height: 170px;
+}
+
+.sectionMenu h3{
+	font-size: 23px;
+}
+
+/*-- COMBOS --*/
+
+.sectionCombos {
+	height: 500px;
+}
+.sectionCombos h1{
+	font-size: 60px;
+}
+.sectionCombos h4{
+	font-size: 20px;
+}
+
+.sectionCombos2 img{
+	height: 300px;
+	width: 400px;
+}
+
+/*-- CONTACTO --*/
+
+.sectionContac{
+	height: 500px;
+}
+
+.sectionContac h1{
+	font-size: 60px;
+}
+
+.sectionContac h4{
+	font-size: 20px;
+}
+
+.sectionContac2 h1{
+	font-size: 60px;
+}
+
+.sectionContac2 p{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+#map {
+	height: 300px;
+	width: 600px;
+}
+
+/*-- SOBRE NOSOTROS --*/
+
+.sectionSobre{
+	height: 500px;
+
+}
+
+.sectionSobre h1{
+	font-size: 60px;
+
+}
+
+.sectionSobre h4{
+	font-size: 20px;
+
+}
+
+.sectionSobre2 h1{
+	font-size: 50px;
+
+}
+
+.sectionSobre2 img{
+	width: 220px;
+	height: 170px;
+	margin-top: 5%;
+}
+
+}
+
+
+/*-- SMARTPHONE --*/
+
 @media only screen and (max-width: 414px){
 
 /*-- INDEX --*/
@@ -407,7 +570,7 @@ footer img{
 	width: 120px;
 	height: 40px;
   	font-size: 16px;
-  	margin-left: 31%;
+  	margin-left: 0%;
   	margin-top: 5%;
   	border-radius: 20px 20px;
 
@@ -430,6 +593,10 @@ footer img{
 	width: 80%;
 	margin-top: 50%; 
 	margin-left: 15%; 
+}
+
+.divMenu h1{
+	padding-top: 0px;
 }
 
 /*-- COMBOS--*/
@@ -568,6 +735,3 @@ footer img{
 	}
 }
 
-@media only screen and (max-width: 768px){
-
-}
