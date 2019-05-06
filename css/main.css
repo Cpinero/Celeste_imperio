@@ -1,9 +1,3 @@
-/*COLORES
-    C90000
-    981919
-    500E0E
-*/
-
 *{
 	margin: 0;
 	padding: 0;
@@ -27,7 +21,7 @@ h1{
 	font-size: 5em;
 	color: #FFFFFF;
 	font-weight: bold;
-	font-family: 'Aliseo';
+	font-family: 'Aliseo', sans-serif;
 }
 
 h4{
@@ -71,8 +65,11 @@ label{
 
 
 
-/*----------------------------------------------------------------- MENU DE NAVEGACION ---------------------------------------------------------
+/*----------------------------------------------------------------- MENU DE NAVEGACION ----------------------------------------------------------*/
 
+.navbar-brand{
+	display: none;
+}
 .nav-custom{
 	background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
@@ -88,8 +85,8 @@ label{
 }
 
 .nav-item {
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 80px;
+	margin-right: 80px;
 	color: #FFFFFF;
 }
 
@@ -108,7 +105,28 @@ label{
 	height: 80px;	
 }
 
--*/
+.dropdown-menu{
+	background-color: rgba(0, 0, 0, 0.65);
+}
+
+.dropdown-item{
+	color: #FFFFFF;
+}
+
+.menuResponsive{
+	color: #FFFFFF;
+}
+
+.logo{
+	width: 100px;
+	height: 130px;
+	position: absolute;
+	margin-left: -2%;
+	margin-top: -20px;
+}
+
+
+
 
 /*----------------------------------------------------------------- FIN MENU DE NAVEGACION --------------------------------------------------------*/
 
@@ -403,6 +421,19 @@ footer img{
 
 @media only screen and (max-width: 768px){
 
+
+/*-- MENU DE NAVEGACION --*/
+
+.nav-item {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.logo{
+	margin-left: -7%;
+}
+
+
 /*-- INDEX --*/
 
 .sectionIndex{
@@ -561,6 +592,24 @@ footer img{
 /*-- SMARTPHONE --*/
 
 @media only screen and (max-width: 414px){
+
+/*-- MENU DE NAVEGACION --*/
+
+.navbar-brand{
+	display: block;
+}
+
+.logo{
+	display: none;
+}
+
+.logoResponsive{
+	width: 80px;
+	height: 110px;
+	position: absolute;
+	margin-left: -20%;
+	margin-top: -12%;
+}
 
 /*-- INDEX --*/
 
