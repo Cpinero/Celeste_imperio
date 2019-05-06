@@ -13,6 +13,12 @@
 	outline: none;
 }
 
+
+@font-face {
+  font-family: "Aliseo";
+  src: url("../fonts/ALISEO-NonCommercial.otf");
+}
+
 body {
 	overflow-x:hidden;
 }
@@ -21,6 +27,7 @@ h1{
 	font-size: 5em;
 	color: #FFFFFF;
 	font-weight: bold;
+	font-family: 'Aliseo';
 }
 
 h4{
@@ -31,6 +38,7 @@ p{
 	color: #FFFFFF;
 	padding: 0;
 	margin:0;
+	font-family: 'Roboto', sans-serif;
 }
 
 address{
@@ -39,8 +47,10 @@ address{
 }
 
 .rojo{
-	color: #500E0E;
+	color: #C90000;
 }
+
+
 
 .negro{
 	color: black;
@@ -50,6 +60,10 @@ address{
 	font-style: italic;
 }
 
+.fondoBlanco{
+	color: #A53636;
+}
+
 label{
 	color: #FFFFFF;
 }
@@ -57,18 +71,24 @@ label{
 
 
 
-/*----------------------------------------------------------------- MENU DE NAVEGACION ----------------------------------------------------------
+/*----------------------------------------------------------------- MENU DE NAVEGACION ---------------------------------------------------------
 
 .nav-custom{
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0, 0, 0, 0.65);
     width: 100%;
     padding: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
+
+}
+
+.navbar-nav{
+	display: flex;
+	justify-content: end;
 }
 
 .nav-item {
-	margin-left: 200px;
+	margin-left: 100px;
 	margin-right: 100px;
 	color: #FFFFFF;
 }
@@ -78,7 +98,17 @@ label{
 	color: #FFFFFF;
 }
 
-/*
+.imagen{
+	position: absolute;
+
+}
+
+.imagen img{
+	width: 80px;
+	height: 80px;	
+}
+
+-*/
 
 /*----------------------------------------------------------------- FIN MENU DE NAVEGACION --------------------------------------------------------*/
 
@@ -171,9 +201,15 @@ label{
 
 }
 
+.sectionMenu h2{
+	font-weight: bold;
+}
+
 .sectionMenu img{
 	width: 300px;
 	height: 300px;
+	box-shadow: 1px 9px 25px 0px rgba(0,0,0,0.75);
+	margin-bottom: 30px;
 }
 
 .divMenu{
@@ -210,6 +246,10 @@ label{
 
 .sectionCombos2{
 	padding-bottom: 50px;
+}
+
+.sectionCombos2 h2{
+	font-weight: bold;
 }
 
 .sectionCombos2 img{
@@ -422,7 +462,8 @@ footer img{
 
 .divMenu{
 	width: 90%;
-	font-size: 11px;
+	font-size: 10px;
+	margin-left: 10%;
 }
 
 .divMenu h1{
@@ -436,7 +477,7 @@ footer img{
 	height: 170px;
 }
 
-.sectionMenu h3{
+.sectionMenu h2{
 	font-size: 23px;
 }
 
@@ -456,6 +497,7 @@ footer img{
 	height: 300px;
 	width: 400px;
 }
+
 
 /*-- CONTACTO --*/
 
@@ -599,6 +641,15 @@ footer img{
 	padding-top: 0px;
 }
 
+.sectionMenu .row .col-sm-4{
+	margin-bottom: 10%;
+}
+
+.sectionMenu .row .col-sm-4 p{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 /*-- COMBOS--*/
 
 .sectionCombos{
@@ -615,6 +666,10 @@ footer img{
 .sectionCombos2 img{
 	height: 200px;
 	width: 300px;
+}
+
+.sectionCombos2 h2{
+	font-size: 23px;
 }
 
 /*-- CONTACTO --*/
@@ -678,11 +733,13 @@ footer img{
 	font-size: 15px;
 	padding-left: 0%;
 
+
 }
 
 .sectionSobre2 h1{
 	font-size: 24px;
 	margin-top: 20px;
+	padding-left: 0%;
 }
 
 .sectionSobre2 img{
@@ -707,7 +764,7 @@ footer img{
 
 /*-- UBICACION Y HORARIOS --*/
 	.sectionUbicacion{
-		font-size: 12px;
+		font-size: 11px;
 
 	}
 
