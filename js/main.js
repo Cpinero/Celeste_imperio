@@ -1,4 +1,8 @@
-function iniciarMap(){
+
+
+$(document).ready(main);
+ 
+ function iniciarMap(){
     var coord = {lat: 14.6038281 ,lng: -90.5182772};
     var map = new google.maps.Map(document.getElementById('map'),{
       zoom: 18,
@@ -9,3 +13,5 @@ function iniciarMap(){
       map: map
     });
 }
+
+
