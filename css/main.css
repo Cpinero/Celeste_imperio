@@ -66,7 +66,9 @@ label{
 
 
 /*----------------------------------------------------------------- MENU DE NAVEGACION ----------------------------------------------------------*/
-
+.navbar-toggler{
+	-webkit-appearance: none;
+}
 .navbar-brand{
 	display: none;
 }
