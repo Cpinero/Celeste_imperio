@@ -78,6 +78,7 @@ label{
     padding: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-weight: 600;
 
 }
 
@@ -95,6 +96,15 @@ label{
 .nav-item .nav-link{
 
 	color: #FFFFFF;
+}
+
+.nav-item .nav-link:hover{
+	text-shadow: 0 0 3px #fff !important;
+	
+}
+
+.actual{
+	text-shadow: 0 0 10px #fff !important;
 }
 
 .imagen{
